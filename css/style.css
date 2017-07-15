@@ -129,3 +129,8 @@ img{
 .thumbnails .col-xs-12 img{
   padding: 10px 0px;
 }
+
+.container-fluid{
+  padding-left: 5px;
+  padding-right: 5px:
+}

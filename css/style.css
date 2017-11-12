@@ -79,6 +79,8 @@ body{
 
 .client-list{
   padding: 30px 30px 10px !important;
+  -webkit-animation: 5s ease 0s normal forwards 1 fadein;
+    animation: 5s ease 0s normal forwards 1 fadein;
 }
 
 .col-xs-12 .header{

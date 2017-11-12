@@ -1,12 +1,50 @@
 @font-face {
-    font-family: TheinhardtLight;
-    src: url(/fonts/TheinhardtLight_alt.otf);
+  font-family: TheinhardtLight;
+  src: url(/fonts/TheinhardtLight_alt.otf);
 }
 
 @font-face {
-    font-family: TheinhardtMedium;
-    src: url(/fonts/TheinhardtMed.otf);
+  font-family: TheinhardtMedium;
+  src: url(/fonts/TheinhardtMed.otf);
 }
+
+html{
+  overflow-x: hidden;
+}
+
+
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+
+
 
 .font-med{
   font-family: TheinhardtMedium, sans-serif;
@@ -20,22 +58,31 @@ body{
   font-family: TheinhardtMedium, sans-serif;
 }
 
+.container-fluid{
+  -webkit-animation: 1.2s ease 0s normal forwards 1 fadein;
+    animation: 1.2s ease 0s normal forwards 1 fadein;
+}
+
 .header-content{
-padding: 20px 30px;
-vertical-align: middle;
-height: 80px;
+  padding: 20px 30px;
+  vertical-align: middle;
+  height: 80px;
+  -webkit-animation: 3.2s ease 0s normal forwards 1 fadein;
+		animation: 3.2s ease 0s normal forwards 1 fadein;
 }
 
 .body-content{
-padding: 30px 30px !important;
+  padding: 30px 30px !important;
+  -webkit-animation: 5s ease 0s normal forwards 1 fadein;
+		animation: 5s ease 0s normal forwards 1 fadein;
 }
 
 .client-list{
-padding: 10px 30px !important;
+  padding: 30px 30px 10px !important;
 }
 
 .col-xs-12 .header{
-text-align: left !important;
+  text-align: left !important;
 }
 
 .page-link{
@@ -45,7 +92,7 @@ text-align: left !important;
 .page-link-active{
   font-weight: bold;
   color: #5F5F5F;
-    font-family: TheinhardtMedium, sans-serif;
+  font-family: TheinhardtMedium, sans-serif;
 }
 
 .page-link, .page-link-active{
@@ -64,6 +111,8 @@ a:hover{
 
 .thumbnails{
   padding: 20px 20px;
+  -webkit-animation: 5s ease 0s normal forwards 1 fadein;
+		animation: 5s ease 0s normal forwards 1 fadein;
 }
 
 .image{
@@ -79,7 +128,6 @@ a:hover{
 }
 
 .client{
-
   vertical-align: middle;
   border: 2px solid black;
 }
@@ -99,31 +147,31 @@ a:hover{
 
 /* CSS used here will be applied after bootstrap.css */
 .thumbnail_container {
-     position: relative;
-     width: 100%;
-     padding-bottom: 50%;
+  position: relative;
+  width: 100%;
+  padding-bottom: 50%;
 }
 
 .thumbnail {
-    position:absolute;
-    width:100%;
-    height:100%;
-    border: none;
-    background: none;
+  position:absolute;
+  width:100%;
+  height:100%;
+  border: none;
+  background: none;
 }
 .thumbnail img {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 img{
-    max-height:50%;
-    max-width:100%;
-    padding: 0px 30px;
+  max-height:50%;
+  max-width:100%;
+  padding: 0px 30px;
 }
 
 .thumbnails .col-xs-12 img{
@@ -133,4 +181,30 @@ img{
 .container-fluid{
   padding-left: 10px !important;
   padding-right: 10px !important;
+}
+
+
+
+@media (max-width: 767px) {
+
+  .card, .card-client-top, .card-client{
+    background-color: #eeeeee;
+  }
+
+  .card{
+    padding: 40px;
+  }
+
+  .card-client-top{
+    padding: 40px 40px 0px;
+  }
+
+  .card-client{
+    padding: 0px;
+  }
+
+  .card-client-bottom{
+    padding-bottom: 30px;
+  }
+
 }

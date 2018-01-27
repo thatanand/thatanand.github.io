@@ -46,8 +46,20 @@ html{
 
 #header-content {
   -webkit-animation-duration: 3s;
-  -webkit-animation-delay: 2s;
+  -webkit-animation-delay: 0s;
 }
+
+#subheading1, #card {
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 1s;
+}
+
+#thumbnail{
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 1.5s;
+}
+
+
 
 .font-med{
   font-family: TheinhardtMedium, sans-serif;
@@ -61,29 +73,19 @@ body{
   font-family: TheinhardtMedium, sans-serif;
 }
 
-.container-fluid{
-  -webkit-animation: 1s ease 0s normal forwards 1 fadein;
-    animation: 1s ease 0s normal forwards 1 fadein;
-}
 
 .header-content{
   padding: 20px 30px;
   vertical-align: middle;
   height: 80px;
-  -webkit-animation: 3s ease 0s normal forwards 1 fadein;
-		animation: 3s ease 0s normal forwards 1 fadein;
 }
 
 .body-content{
   padding: 30px 30px !important;
-  -webkit-animation: 3.8s ease 0s normal forwards 1 fadein;
-		animation: 3.8s ease 0s normal forwards 1 fadein;
 }
 
 .client-list{
   padding: 30px 30px 10px !important;
-  -webkit-animation: 3.8s ease 0s normal forwards 1 fadein;
-    animation: 3.8s ease 0s normal forwards 1 fadein;
 }
 
 .col-xs-12 .header{
@@ -116,8 +118,8 @@ a:hover{
 
 .thumbnails{
   padding: 20px 20px;
-  -webkit-animation: 4s ease 0s normal forwards 1 fadein;
-		animation: 4s ease 0s normal forwards 1 fadein;
+  /* -webkit-animation: 4s ease 0s normal forwards 1 fadein;
+		animation: 4s ease 0s normal forwards 1 fadein; */
 }
 
 .image{

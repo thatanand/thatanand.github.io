@@ -199,22 +199,27 @@
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
       <script type="text/javascript" src="https://unpkg.com/onscreen/dist/on-screen.umd.min.js"></script>
-     <script type="text/javascript">
+      <script type="text/javascript">
+
+      if ($(window).width() > 767) {
 
 
-     var os = new OnScreen({
-       tolerance: 0,
-       debounce: 100,
-       container: window
-     });
+        var os = new OnScreen({
+          tolerance: 0,
+          debounce: 100,
+          container: window
+        });
 
 
-     os.on('enter', '.comeInUp', (element, event) => {
-       element.classList.remove("comeInUp");
-       element.classList.add("animated", "fadeInUp");
-     });
+        os.on('enter', '.comeInUp', (element, event) => {
+          element.classList.remove("comeInUp");
+          element.classList.add("animated", "fadeInUp");
+        });
 
-     </script>
+      }
+
+
+      </script>
 
     </body>
     </html>

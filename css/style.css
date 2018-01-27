@@ -123,7 +123,7 @@ a:hover{
 .thumbnails{
   padding: 20px 20px;
   /* -webkit-animation: 4s ease 0s normal forwards 1 fadein;
-		animation: 4s ease 0s normal forwards 1 fadein; */
+  animation: 4s ease 0s normal forwards 1 fadein; */
 }
 
 .image{
@@ -198,34 +198,34 @@ img{
 
 
 
-  .card, .card-client-top, .card-client{
-    background-color: #eeeeee;
+.card, .card-client-top, .card-client{
+  background-color: #eeeeee;
+}
+
+.card{
+  padding: 40px;
+}
+
+.card-client-top{
+  padding: 40px 40px 0px;
+}
+
+.card-client{
+  padding: 0px;
+}
+
+.card-client-bottom{
+  padding-bottom: 30px;
+}
+
+@media (min-width: 767px) {
+
+  .body-content, .client-list {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    width: 50%;
+    text-align: left;
   }
-
-  .card{
-    padding: 40px;
-  }
-
-  .card-client-top{
-    padding: 40px 40px 0px;
-  }
-
-  .card-client{
-    padding: 0px;
-  }
-
-  .card-client-bottom{
-    padding-bottom: 30px;
-  }
-
-  @media (min-width: 767px) {
-
-    .body-content, .client-list {
-      margin-left: auto;
-margin-right: auto;
-float: none;
-width: 50%;
-text-align: left;
-    }
 
 }

@@ -5,45 +5,54 @@ Author's custom styles
 ========================================================================== */
 
 
-@keyframes fadeInUp-2 {
+@keyframes fadeIn-2 {
     from {
-        transform: translate3d(0,80px,0);
         opacity: 0
     }
 
     to {
-        transform: translate3d(0,0,0);
         opacity: .3
     }
 }
 
-@-webkit-keyframes fadeInUp-2 {
+@-webkit-keyframes fadeIn-2 {
     from {
-        transform: translate3d(0,80px,0);
         opacity: 0
     }
 
     to {
-        transform: translate3d(0,0,0);
         opacity: .3
     }
 }
 
-.animatedFadeInUp-2 {
+.animatedFadeIn-2 {
     opacity: 0
 }
 
-.fadeInUp-2 {
+.fadeIn-2 {
     opacity: 0;
-    animation-name: fadeInUp-2;
-    -webkit-animation-name: fadeInUp-2;
+    animation-name: fadeIn-2;
+    -webkit-animation-name: fadeIn-2;
 }
 
 
 
 
 
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+  #demo {
+    font-size: 2em !important;
+  }
 
+  .heading {
+    font-size: 2.5em !important;
+  }
+
+  .date, .time {
+    font-size: 90% !important;
+  }
+}
 
 
 
@@ -83,10 +92,10 @@ body {
 }
 
 #entry-2 {
-  -animation-duration: 3s;
-  -animation-delay: 3s;
-  -webkit-animation-duration: 3s;
-  -webkit-animation-delay: 3s;
+  -animation-duration: 4s;
+  -animation-delay: 4s;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-delay: 4s;
   padding: 20px !important;
   background: rgba(255, 255, 255, 0.05);
 }
@@ -140,7 +149,7 @@ body {
   color: white;
   font-weight: 200;
   padding: 0px;
-  border: 5px solid transparent;
+  border: 0px solid transparent;
   border-radius: 5px;
 }
 

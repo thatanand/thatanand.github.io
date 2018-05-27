@@ -1,0 +1,171 @@
+
+
+/* ==========================================================================
+Author's custom styles
+========================================================================== */
+
+
+@keyframes fadeInUp-2 {
+    from {
+        transform: translate3d(0,80px,0);
+        opacity: 0
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: .3
+    }
+}
+
+@-webkit-keyframes fadeInUp-2 {
+    from {
+        transform: translate3d(0,80px,0);
+        opacity: 0
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: .3
+    }
+}
+
+.animatedFadeInUp-2 {
+    opacity: 0
+}
+
+.fadeInUp-2 {
+    opacity: 0;
+    animation-name: fadeInUp-2;
+    -webkit-animation-name: fadeInUp-2;
+}
+
+
+
+
+
+
+
+
+
+
+
+body {
+  background: #2b5876;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Poppins', sans-serif !important;
+  color: white;
+    letter-spacing: 1px;
+}
+
+.heading {
+  color: white !important;
+  text-align: center;
+  padding: 50px 20px 30px 20px;
+  font-size: 42px;
+  line-height: 1.4;
+}
+
+#demo {
+  -animation-duration: 1s;
+  -animation-delay: 1s;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+  text-align: center;
+  font-weight: 200;
+}
+
+#entry {
+  -animation-duration: 2s;
+  -animation-delay: 2s;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 2s;
+}
+
+#entry-2 {
+  -animation-duration: 3s;
+  -animation-delay: 3s;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 3s;
+  padding: 20px !important;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.navbar {
+  background: none;
+  /* -webkit-box-shadow: 0px 5px 67px -10px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0px 5px 67px -10px rgba(0,0,0,0.15);
+  box-shadow: 0px 5px 67px -10px rgba(0,0,0,0.15); */
+}
+
+
+.jumbotron {
+  background: none;
+  padding: 0px 0px;
+}
+
+
+.navbar {
+  border: none;
+}
+
+.date, .time {
+  color: white;
+  font-weight: 600;
+  font-size: 18px
+}
+
+.date {
+  float: left;
+}
+
+.time {
+  float: right;
+}
+
+.paper {
+  color: white;
+  font-weight: 400;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+.board {
+  font-size: 16px;
+  color: white;
+  font-weight: 400;
+}
+
+.duration, .venue {
+  color: white;
+  font-weight: 200;
+  padding: 0px;
+  border: 5px solid transparent;
+  border-radius: 5px;
+}
+
+.seat, .duration, .venue {
+  font-size: 12px;
+}
+
+
+.seat {
+  color: #2b5876;
+    font-weight: 300;
+  background: white;
+  padding: 0px;
+  border: 5px solid white;
+  border-radius: 5px;
+}
+
+
+
+.entry-parent {
+  padding: 20px;
+}
+
+
+.entry {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.05);
+}

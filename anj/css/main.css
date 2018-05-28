@@ -48,13 +48,19 @@ Author's custom styles
   .heading {
     font-size: 2.5em !important;
   }
-
+.board {
+  font-size: 10px !important;
+}
   .date, .time {
-    font-size: 90% !important;
+    font-size: 80% !important;
   }
 
   .paper {
-      font-size: 18px !important;
+      font-size: 11px !important;
+  }
+
+  .seat, .duration, .venue {
+    font-size: 10px !important;
   }
 }
 

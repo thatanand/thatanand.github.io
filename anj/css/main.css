@@ -49,14 +49,14 @@ Author's custom styles
     font-size: 2.5em !important;
   }
 .board {
-  font-size: 10px !important;
+  font-size: 11px !important;
 }
   .date, .time {
     font-size: 80% !important;
   }
 
   .paper {
-      font-size: 11px !important;
+      font-size: 13px !important;
   }
 
   .seat, .duration, .venue {

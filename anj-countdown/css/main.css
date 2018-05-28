@@ -1,0 +1,192 @@
+
+
+/* ==========================================================================
+Author's custom styles
+========================================================================== */
+
+
+@keyframes fadeIn-2 {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: .4
+    }
+}
+
+@-webkit-keyframes fadeIn-2 {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: .4
+    }
+}
+
+.animatedFadeIn-2 {
+    opacity: 0
+}
+
+.fadeIn-2 {
+    opacity: 0;
+    animation-name: fadeIn-2;
+    -webkit-animation-name: fadeIn-2;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+  #demo {
+    font-size: 1.5em !important;
+  }
+
+  .heading {
+    font-size: 2.5em !important;
+  }
+.board {
+  font-size: 11px !important;
+}
+  .date, .time {
+    font-size: 80% !important;
+  }
+
+  .paper {
+      font-size: 13px !important;
+  }
+
+  .seat, .duration, .venue {
+    font-size: 10px !important;
+  }
+}
+
+
+html {
+  background: #2b5876;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+body {
+background: none;
+  font-family: 'Poppins', sans-serif !important;
+  color: white;
+    letter-spacing: 1px;
+}
+
+.heading {
+  color: white !important;
+  text-align: center;
+  padding: 50px 20px 30px 20px;
+  font-size: 60px;
+  line-height: 1.4;
+}
+
+#demo {
+  -animation-duration: 1s;
+  -animation-delay: 1s;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+  text-align: center;
+  font-weight: 200;
+}
+
+#entry {
+  -animation-duration: 2s;
+  -animation-delay: 2s;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 2s;
+}
+
+#entry-2 {
+  -animation-duration: 4s;
+  -animation-delay: 4s;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-delay: 4s;
+  padding: 20px !important;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.navbar {
+  background: none;
+  /* -webkit-box-shadow: 0px 5px 67px -10px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0px 5px 67px -10px rgba(0,0,0,0.15);
+  box-shadow: 0px 5px 67px -10px rgba(0,0,0,0.15); */
+}
+
+
+.jumbotron {
+  background: none;
+  padding: 0px 0px;
+}
+
+
+.navbar {
+  border: none;
+}
+
+.date, .time {
+  color: white;
+  font-weight: 600;
+  font-size: 18px
+}
+
+.date {
+  float: left;
+}
+
+.time {
+  float: right;
+}
+
+.paper {
+  color: white;
+  font-weight: 400;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+.board {
+  font-size: 16px;
+  color: white;
+  font-weight: 400;
+}
+
+.duration, .venue {
+  color: white;
+  font-weight: 200;
+  padding: 0px;
+  border: 0px solid transparent;
+  border-radius: 5px;
+}
+
+.seat, .duration, .venue {
+  font-size: 12px;
+}
+
+
+.seat {
+  color: #2b5876;
+    font-weight: 300;
+  background: white;
+  padding: 0px;
+  border: 5px solid white;
+  border-radius: 5px;
+}
+
+
+
+.entry-parent {
+  padding: 20px;
+}
+
+
+.entry {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.05);
+}

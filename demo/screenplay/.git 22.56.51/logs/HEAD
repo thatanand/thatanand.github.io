@@ -1,7 +1,0 @@
-0000000000000000000000000000000000000000 7f6b8dee5217081536b657cffde3dc43e6f73ebb Anand Subramaniam <anand.subra@hotmail.com> 1468612708 +0100	commit (initial): Initial commit — very basic v1
-7f6b8dee5217081536b657cffde3dc43e6f73ebb 07a7a13815b18d5bc0c6b9bf87aa8c29931f7d7f Anand Subramaniam <anand.subra@hotmail.com> 1488032632 +0000	commit: Simplify HTML code + introduce Courier Prime + create print media
-07a7a13815b18d5bc0c6b9bf87aa8c29931f7d7f 6be93f208ff3d50ead4a297a6f114e8dff66affb Anand Subramaniam <Anand@anands-mbp.home> 1488033065 +0000	pull --log origin master: Merge made by the 'recursive' strategy.
-6be93f208ff3d50ead4a297a6f114e8dff66affb 50e6984fd34abadba44b46fcd697fac096a823eb Anand Subramaniam <anand.subra@hotmail.com> 1488033331 +0000	commit: Update README with modified v1 checklist
-50e6984fd34abadba44b46fcd697fac096a823eb c1e25604ddd9d8d630f770adbb854fbf9f50e2f3 Anand Subramaniam <anand.subra@hotmail.com> 1488038621 +0000	commit: Add 1st page from The Social Network as sample + fix font import issue
-c1e25604ddd9d8d630f770adbb854fbf9f50e2f3 1e792365d95b3123c855da99e311793051e41194 Anand Subramaniam <anand.subra@hotmail.com> 1488039934 +0000	commit: Remove redundant code + add print button on interface
-1e792365d95b3123c855da99e311793051e41194 7e3241f506ec32961b754057eb789b7de47c3b4c Anand Subramaniam <anand.subra@hotmail.com> 1488039983 +0000	commit: Slow animation transitions

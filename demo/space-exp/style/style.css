@@ -1,0 +1,58 @@
+body,html {
+  background: url(../images/stars.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body, html{
+  background-color: #060607;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  -webkit-user-select: none; /* Chrome/Safari */
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* IE10+ */
+}
+
+h1{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: white;
+font-size: 40px;
+  letter-spacing: 1px;
+line-height: 40px;
+}
+
+.name{
+  padding-top: 5px;
+  color: rgb(206, 206, 206);
+  font-family: 'Source Code Pro', monospace;
+  font-size: 14px;
+  line-height: 15px;
+letter-spacing: 0.5px;
+}
+
+.content{
+  left: 15px;
+  position: absolute;
+  top: 0px;
+}
+
+.glyphicon{
+  color: grey;
+  font-size: 180%;
+}
+
+.glyphicon:hover{
+  color: white;
+}
+
+p{
+  font-family: 'Source Code Pro', monospace;
+  color: grey;
+}
+
+.controls{
+  text-transform: uppercase;
+}

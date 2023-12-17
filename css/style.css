@@ -1,16 +1,16 @@
 @font-face {
-  font-family: TheinhardtRegular;
-  src: url(/fonts/Theinhardt-Regular.ttf);
+  font-family: InterSemiBold;
+  src: url(/fonts/Inter-SemiBold.ttf);
 }
 
 @font-face {
-  font-family: TheinhardtLight;
-  src: url(/fonts/Theinhardt-Light.ttf);
+  font-family: InterMedium;
+  src: url(/fonts/Inter-Medium.ttf);
 }
 
 @font-face {
-  font-family: TheinhardtThin;
-  src: url(/fonts/Theinhardt-Thin.ttf);
+  font-family: InterRegular;
+  src: url(/fonts/Inter-Regular.ttf);
 }
 
 html{
@@ -74,24 +74,37 @@ html{
   padding: 20px 0px !important;
 }
 
-.font-med{
-  font-family: TheinhardtRegular, sans-serif;
-  color: #000000;
+.font-title{
+  font-family: InterSemiBold, sans-serif;
+  font-size: 24px;
+  color: #242424;
 }
 
-.font-med-emph, .font-med-sub{
-  font-family: TheinhardtRegular, sans-serif;
-  color: #000000;
-  font-size: 18px;
-}
-
-.font-med-emph-grey {
-  font-family: TheinhardtRegular, sans-serif;
-  color: #5f5f5f;
-  font-size: 18px;
+.font-menu{
+  font-family: InterMedium, sans-serif;
+  font-size: 24px;
+  color: #242424;
 }
 
 
+.font-job {
+  font-family: InterRegular, sans-serif;
+  font-size: 22px;
+  color: #242424;
+}
+
+.font-client{
+  font-family: InterSemiBold, sans-serif;
+  font-size: 16px;
+  color: #242424;
+  text-align: left !important;
+}
+
+.font-client-desc{
+  font-family: InterRegular, sans-serif;
+  font-size: 12px;
+  color: #242424;
+}
 
 
 body{
@@ -104,16 +117,15 @@ font-kerning: normal;
   background: #F6F6F6;
   color: #555555;
   font-size: 14px;
-  font-family: TheinhardtRegular, sans-serif;
-
-  letter-spacing: .06em !important;
+  font-family: InterRegular, sans-serif;
+  letter-spacing: .12em !important;
 }
 
 
 .header-content{
-  padding: 20px 30px;
+  padding: 40px 30px;
   vertical-align: middle;
-  height: 80px;
+  height: 120px;
 }
 
 .body-content{
@@ -135,7 +147,7 @@ font-kerning: normal;
 
 .page-link-active{
   color: #000000;
-  font-family: TheinhardtRegular, sans-serif;
+  font-family: InterMedium, sans-serif;
     font-size: 16px;
 }
 
@@ -217,7 +229,7 @@ a:hover{
   color: #ffffff;
   padding: 100px 0px;
   font-size: 14px;
-  font-family: TheinhardtRegular, sans-serif;
+  font-family: InterRegular, sans-serif;
 }
 
 img{
@@ -236,10 +248,8 @@ img{
   max-width: 1200px;
 }
 
-
 #thumbnail p {
-  font-size: .9em;
-  text-align: center;
+  text-align: left;
 }
 
 
